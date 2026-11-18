@@ -1,0 +1,316 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+
+
+h1 {
+    
+h1 {
+    background-color: #222222;
+    color: gold;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+}
+
+h2 {
+    
+h2 {
+    color: gold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+}
+
+/* Navigation Menu */
+
+nav {
+    background-color: #111111;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    color: gold;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    color: gold;
+    background: none;
+    font-size: 40px;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 23px;
+}
+
+.hero p {
+    color: #cccccc;
+    margin: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: gold;
+    color: black;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.about h2 {
+    color: gold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #dddddd;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.skills {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.skills h2 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #222222;
+    padding: 25px;
+    border: 1px solid gold;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.skill-card h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    color: white;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid gold;
+    margin-bottom: 20px;
+}
+
+.projects {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.projects h2 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #222222;
+    border: 1px solid gold;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.project-card h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: white;
+}
+
+/* Contact Section */
+#contact {
+    background: #1e293b;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 30px 0;
+}
+
+#contact h2 {
+    color: #facc15;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.contact-info {
+    margin: 25px 0;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #facc15;
+    color: #111827;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: white;
+}
+
+/* Footer Section */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: #facc15;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #contact {
+        padding: 30px 15px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    footer {
+        padding: 25px 10px;
+    }
+}
